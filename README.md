@@ -1,7 +1,6 @@
 # Vorverarbeitung – kleiner heißt nicht weniger Konflikte – Streamlit-Demo
 
-<!-- TODO nach dem Deploy: direkt hierher den Live-Link setzen (Leerzeile davor und danach):
-**[→ Demo live ausprobieren](https://sebastianhanisch-vorverarbeitung-sat-demo.streamlit.app/)** -->
+**[→ Demo live ausprobieren](https://sebastianhanisch-vorverarbeitung-sat-demo.streamlit.app/)**
 
 Siebtes Stück der Linie **SAT und Constraint Programming** in der „Konzepte“-Reihe für die Website „Sebastian Hanisch – Operations Research und Machine Learning“. Die Kante vom ersten Stück (Konfliktklauseln) ist ein **bewusster Kontrast**: Der CDCL-Löser lernt **während** der Suche und lässt die Formel, wie sie ist; die Vorverarbeitung verkleinert die Formel **vor** der Suche. Die Demo zeigt die vier Schritte einzeln (Einheiten, Subsumption, Verstärkung, begrenzte Variablenelimination), die Rückrechnung eliminierter Variablen in ein Modell der Originalformel und eine vorgerechnete Messreihe vorher/nachher; Inprocessing (Vereinfachen während der Suche) ist ein Erklär-Reiter ohne Messung.
 
