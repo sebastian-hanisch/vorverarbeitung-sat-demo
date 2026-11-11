@@ -1,0 +1,4803 @@
+{
+ "hinweis": "vorgerechnet mit tools/messreihe.py, nicht live; zehn feste Formeln je Zeile (SplitMix64-Seeds), fünf Löser-Seeds, Budget siehe 'budget'",
+ "budget": 200000,
+ "mess_seeds": [
+  1700,
+  1701,
+  1702,
+  1703,
+  1704,
+  1705,
+  1706,
+  1707,
+  1708,
+  1709
+ ],
+ "loeser_seeds": [
+  11,
+  12,
+  13,
+  14,
+  15
+ ],
+ "kern_versionen": {
+  "cdcl": "832b2c10dfdea62d",
+  "instanzen": "6795de796b66fff8",
+  "kodierung": "208571302afd04b4",
+  "rng": "5d5d8f45d0e1eddf",
+  "vorverarbeitung": "5b97cdced685984e"
+ },
+ "zeilen": [
+  {
+   "id": "vc_totalizer_frei",
+   "familie": "vc_totalizer",
+   "n": 60,
+   "eingefroren": false,
+   "beschriftung": "Vertex Cover n = 60, k = 24, Totalizer, nichts eingefroren",
+   "formeln": [
+    {
+     "seed": 1700,
+     "variablen": [
+      371,
+      247
+     ],
+     "klauseln": [
+      1932,
+      1305
+     ],
+     "resolventen": 22972,
+     "vergleiche": 154877,
+     "runden": 4,
+     "eliminiert": 116,
+     "abgelehnt": 1247,
+     "einheiten": 8,
+     "subsumiert": 9,
+     "verstaerkt": 56,
+     "antwort_vor": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "antwort_nach": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "konflikte_vor": [
+      1805,
+      2235,
+      1928,
+      1881,
+      2410
+     ],
+     "konflikte_nach": [
+      1866,
+      1860,
+      2035,
+      1911,
+      2199
+     ],
+     "propagationen_vor": [
+      153663,
+      184387,
+      158308,
+      152122,
+      194590
+     ],
+     "propagationen_nach": [
+      113159,
+      102602,
+      124920,
+      111975,
+      126333
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1701,
+     "variablen": [
+      371,
+      246
+     ],
+     "klauseln": [
+      1932,
+      1310
+     ],
+     "resolventen": 19238,
+     "vergleiche": 145273,
+     "runden": 3,
+     "eliminiert": 118,
+     "abgelehnt": 989,
+     "einheiten": 7,
+     "subsumiert": 3,
+     "verstaerkt": 111,
+     "antwort_vor": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "antwort_nach": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "konflikte_vor": [
+      1451,
+      1669,
+      1508,
+      1726,
+      1196
+     ],
+     "konflikte_nach": [
+      1374,
+      1524,
+      1430,
+      1776,
+      1498
+     ],
+     "propagationen_vor": [
+      119125,
+      130671,
+      116463,
+      133626,
+      95783
+     ],
+     "propagationen_nach": [
+      74213,
+      76759,
+      73558,
+      95518,
+      79965
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1702,
+     "variablen": [
+      371,
+      275
+     ],
+     "klauseln": [
+      1932,
+      1474
+     ],
+     "resolventen": 16596,
+     "vergleiche": 116552,
+     "runden": 2,
+     "eliminiert": 93,
+     "abgelehnt": 825,
+     "einheiten": 3,
+     "subsumiert": 0,
+     "verstaerkt": 67,
+     "antwort_vor": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "antwort_nach": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "konflikte_vor": [
+      687,
+      497,
+      537,
+      604,
+      544
+     ],
+     "konflikte_nach": [
+      786,
+      850,
+      757,
+      529,
+      646
+     ],
+     "propagationen_vor": [
+      53285,
+      38546,
+      43981,
+      47696,
+      42757
+     ],
+     "propagationen_nach": [
+      43119,
+      49544,
+      42701,
+      31460,
+      37691
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1703,
+     "variablen": [
+      371,
+      252
+     ],
+     "klauseln": [
+      1932,
+      1336
+     ],
+     "resolventen": 19981,
+     "vergleiche": 133163,
+     "runden": 3,
+     "eliminiert": 111,
+     "abgelehnt": 1015,
+     "einheiten": 8,
+     "subsumiert": 15,
+     "verstaerkt": 49,
+     "antwort_vor": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "antwort_nach": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "konflikte_vor": [
+      1038,
+      1099,
+      1079,
+      1273,
+      1028
+     ],
+     "konflikte_nach": [
+      1326,
+      1153,
+      1199,
+      1107,
+      1050
+     ],
+     "propagationen_vor": [
+      84282,
+      85355,
+      81926,
+      94210,
+      81100
+     ],
+     "propagationen_nach": [
+      67732,
+      62048,
+      61551,
+      54294,
+      52422
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1704,
+     "variablen": [
+      371,
+      262
+     ],
+     "klauseln": [
+      1932,
+      1418
+     ],
+     "resolventen": 10876,
+     "vergleiche": 80409,
+     "runden": 1,
+     "eliminiert": 106,
+     "abgelehnt": 524,
+     "einheiten": 3,
+     "subsumiert": 0,
+     "verstaerkt": 0,
+     "antwort_vor": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "antwort_nach": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "konflikte_vor": [
+      1231,
+      1348,
+      1281,
+      1419,
+      1610
+     ],
+     "konflikte_nach": [
+      1729,
+      1024,
+      1461,
+      1595,
+      1542
+     ],
+     "propagationen_vor": [
+      102249,
+      105125,
+      100594,
+      115750,
+      125304
+     ],
+     "propagationen_nach": [
+      95247,
+      54983,
+      82011,
+      88589,
+      87677
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1705,
+     "variablen": [
+      371,
+      235
+     ],
+     "klauseln": [
+      1932,
+      1223
+     ],
+     "resolventen": 17745,
+     "vergleiche": 120281,
+     "runden": 3,
+     "eliminiert": 124,
+     "abgelehnt": 957,
+     "einheiten": 12,
+     "subsumiert": 27,
+     "verstaerkt": 89,
+     "antwort_vor": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "antwort_nach": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "konflikte_vor": [
+      820,
+      734,
+      853,
+      846,
+      820
+     ],
+     "konflikte_nach": [
+      1231,
+      1227,
+      823,
+      871,
+      852
+     ],
+     "propagationen_vor": [
+      67612,
+      54210,
+      64847,
+      66587,
+      66780
+     ],
+     "propagationen_nach": [
+      61370,
+      60756,
+      41288,
+      46111,
+      45698
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1706,
+     "variablen": [
+      371,
+      235
+     ],
+     "klauseln": [
+      1932,
+      1240
+     ],
+     "resolventen": 21872,
+     "vergleiche": 160186,
+     "runden": 4,
+     "eliminiert": 125,
+     "abgelehnt": 1197,
+     "einheiten": 11,
+     "subsumiert": 6,
+     "verstaerkt": 167,
+     "antwort_vor": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "antwort_nach": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "konflikte_vor": [
+      745,
+      860,
+      633,
+      724,
+      746
+     ],
+     "konflikte_nach": [
+      764,
+      623,
+      619,
+      506,
+      743
+     ],
+     "propagationen_vor": [
+      58994,
+      69583,
+      48221,
+      56374,
+      57568
+     ],
+     "propagationen_nach": [
+      40088,
+      32489,
+      32632,
+      28113,
+      37477
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1707,
+     "variablen": [
+      371,
+      239
+     ],
+     "klauseln": [
+      1932,
+      1271
+     ],
+     "resolventen": 18551,
+     "vergleiche": 130196,
+     "runden": 3,
+     "eliminiert": 120,
+     "abgelehnt": 980,
+     "einheiten": 12,
+     "subsumiert": 1,
+     "verstaerkt": 142,
+     "antwort_vor": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "antwort_nach": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "konflikte_vor": [
+      1527,
+      1509,
+      1668,
+      1579,
+      1348
+     ],
+     "konflikte_nach": [
+      1473,
+      1476,
+      1373,
+      1526,
+      2102
+     ],
+     "propagationen_vor": [
+      124179,
+      121750,
+      136096,
+      124238,
+      107054
+     ],
+     "propagationen_nach": [
+      72234,
+      77783,
+      76263,
+      78415,
+      108325
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1708,
+     "variablen": [
+      371,
+      263
+     ],
+     "klauseln": [
+      1932,
+      1415
+     ],
+     "resolventen": 25274,
+     "vergleiche": 174821,
+     "runden": 5,
+     "eliminiert": 101,
+     "abgelehnt": 1335,
+     "einheiten": 7,
+     "subsumiert": 3,
+     "verstaerkt": 99,
+     "antwort_vor": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "antwort_nach": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "konflikte_vor": [
+      1340,
+      1067,
+      1069,
+      1022,
+      1258
+     ],
+     "konflikte_nach": [
+      1141,
+      1155,
+      1134,
+      1382,
+      1025
+     ],
+     "propagationen_vor": [
+      103073,
+      84443,
+      82716,
+      79533,
+      101665
+     ],
+     "propagationen_nach": [
+      59903,
+      65905,
+      64786,
+      77221,
+      60281
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1709,
+     "variablen": [
+      371,
+      267
+     ],
+     "klauseln": [
+      1932,
+      1427
+     ],
+     "resolventen": 15059,
+     "vergleiche": 108138,
+     "runden": 2,
+     "eliminiert": 101,
+     "abgelehnt": 801,
+     "einheiten": 3,
+     "subsumiert": 0,
+     "verstaerkt": 24,
+     "antwort_vor": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "antwort_nach": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "konflikte_vor": [
+      2115,
+      1865,
+      1882,
+      1541,
+      1661
+     ],
+     "konflikte_nach": [
+      2302,
+      1887,
+      2173,
+      2007,
+      1878
+     ],
+     "propagationen_vor": [
+      166525,
+      149549,
+      151528,
+      129524,
+      134598
+     ],
+     "propagationen_nach": [
+      129624,
+      111417,
+      122638,
+      107224,
+      108071
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    }
+   ],
+   "kurz": "VC Totalizer"
+  },
+  {
+   "id": "vc_totalizer_eingefroren",
+   "familie": "vc_totalizer",
+   "n": 60,
+   "eingefroren": true,
+   "beschriftung": "Vertex Cover n = 60, k = 24, Totalizer, Eingänge eingefroren",
+   "formeln": [
+    {
+     "seed": 1700,
+     "variablen": [
+      371,
+      284
+     ],
+     "klauseln": [
+      1932,
+      1500
+     ],
+     "resolventen": 7332,
+     "vergleiche": 76902,
+     "runden": 1,
+     "eliminiert": 84,
+     "abgelehnt": 448,
+     "einheiten": 3,
+     "subsumiert": 0,
+     "verstaerkt": 0,
+     "antwort_vor": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "antwort_nach": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "konflikte_vor": [
+      1805,
+      2235,
+      1928,
+      1881,
+      2410
+     ],
+     "konflikte_nach": [
+      2097,
+      1963,
+      1993,
+      1980,
+      2262
+     ],
+     "propagationen_vor": [
+      153663,
+      184387,
+      158308,
+      152122,
+      194590
+     ],
+     "propagationen_nach": [
+      125409,
+      123012,
+      126890,
+      126850,
+      139756
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1701,
+     "variablen": [
+      371,
+      284
+     ],
+     "klauseln": [
+      1932,
+      1500
+     ],
+     "resolventen": 7332,
+     "vergleiche": 76873,
+     "runden": 1,
+     "eliminiert": 84,
+     "abgelehnt": 448,
+     "einheiten": 3,
+     "subsumiert": 0,
+     "verstaerkt": 0,
+     "antwort_vor": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "antwort_nach": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "konflikte_vor": [
+      1451,
+      1669,
+      1508,
+      1726,
+      1196
+     ],
+     "konflikte_nach": [
+      1683,
+      1280,
+      1784,
+      1420,
+      1697
+     ],
+     "propagationen_vor": [
+      119125,
+      130671,
+      116463,
+      133626,
+      95783
+     ],
+     "propagationen_nach": [
+      100603,
+      74160,
+      103143,
+      86373,
+      103040
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1702,
+     "variablen": [
+      371,
+      284
+     ],
+     "klauseln": [
+      1932,
+      1500
+     ],
+     "resolventen": 7332,
+     "vergleiche": 76765,
+     "runden": 1,
+     "eliminiert": 84,
+     "abgelehnt": 448,
+     "einheiten": 3,
+     "subsumiert": 0,
+     "verstaerkt": 0,
+     "antwort_vor": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "antwort_nach": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "konflikte_vor": [
+      687,
+      497,
+      537,
+      604,
+      544
+     ],
+     "konflikte_nach": [
+      635,
+      699,
+      816,
+      833,
+      691
+     ],
+     "propagationen_vor": [
+      53285,
+      38546,
+      43981,
+      47696,
+      42757
+     ],
+     "propagationen_nach": [
+      37478,
+      41132,
+      47207,
+      50609,
+      42830
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1703,
+     "variablen": [
+      371,
+      284
+     ],
+     "klauseln": [
+      1932,
+      1500
+     ],
+     "resolventen": 7332,
+     "vergleiche": 76870,
+     "runden": 1,
+     "eliminiert": 84,
+     "abgelehnt": 448,
+     "einheiten": 3,
+     "subsumiert": 0,
+     "verstaerkt": 0,
+     "antwort_vor": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "antwort_nach": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "konflikte_vor": [
+      1038,
+      1099,
+      1079,
+      1273,
+      1028
+     ],
+     "konflikte_nach": [
+      903,
+      1166,
+      1129,
+      1107,
+      1069
+     ],
+     "propagationen_vor": [
+      84282,
+      85355,
+      81926,
+      94210,
+      81100
+     ],
+     "propagationen_nach": [
+      54961,
+      67934,
+      66053,
+      62799,
+      60158
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1704,
+     "variablen": [
+      371,
+      284
+     ],
+     "klauseln": [
+      1932,
+      1500
+     ],
+     "resolventen": 7332,
+     "vergleiche": 76821,
+     "runden": 1,
+     "eliminiert": 84,
+     "abgelehnt": 448,
+     "einheiten": 3,
+     "subsumiert": 0,
+     "verstaerkt": 0,
+     "antwort_vor": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "antwort_nach": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "konflikte_vor": [
+      1231,
+      1348,
+      1281,
+      1419,
+      1610
+     ],
+     "konflikte_nach": [
+      1522,
+      1865,
+      1647,
+      1185,
+      1569
+     ],
+     "propagationen_vor": [
+      102249,
+      105125,
+      100594,
+      115750,
+      125304
+     ],
+     "propagationen_nach": [
+      91875,
+      106925,
+      102484,
+      75333,
+      92750
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1705,
+     "variablen": [
+      371,
+      284
+     ],
+     "klauseln": [
+      1932,
+      1500
+     ],
+     "resolventen": 7332,
+     "vergleiche": 76819,
+     "runden": 1,
+     "eliminiert": 84,
+     "abgelehnt": 448,
+     "einheiten": 3,
+     "subsumiert": 0,
+     "verstaerkt": 0,
+     "antwort_vor": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "antwort_nach": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "konflikte_vor": [
+      820,
+      734,
+      853,
+      846,
+      820
+     ],
+     "konflikte_nach": [
+      543,
+      1026,
+      986,
+      1178,
+      1222
+     ],
+     "propagationen_vor": [
+      67612,
+      54210,
+      64847,
+      66587,
+      66780
+     ],
+     "propagationen_nach": [
+      35848,
+      57695,
+      59522,
+      66273,
+      70760
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1706,
+     "variablen": [
+      371,
+      284
+     ],
+     "klauseln": [
+      1932,
+      1500
+     ],
+     "resolventen": 7332,
+     "vergleiche": 76790,
+     "runden": 1,
+     "eliminiert": 84,
+     "abgelehnt": 448,
+     "einheiten": 3,
+     "subsumiert": 0,
+     "verstaerkt": 0,
+     "antwort_vor": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "antwort_nach": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "konflikte_vor": [
+      745,
+      860,
+      633,
+      724,
+      746
+     ],
+     "konflikte_nach": [
+      875,
+      901,
+      780,
+      745,
+      879
+     ],
+     "propagationen_vor": [
+      58994,
+      69583,
+      48221,
+      56374,
+      57568
+     ],
+     "propagationen_nach": [
+      48784,
+      53491,
+      46727,
+      44346,
+      53192
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1707,
+     "variablen": [
+      371,
+      284
+     ],
+     "klauseln": [
+      1932,
+      1500
+     ],
+     "resolventen": 7332,
+     "vergleiche": 76886,
+     "runden": 1,
+     "eliminiert": 84,
+     "abgelehnt": 448,
+     "einheiten": 3,
+     "subsumiert": 0,
+     "verstaerkt": 0,
+     "antwort_vor": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "antwort_nach": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "konflikte_vor": [
+      1527,
+      1509,
+      1668,
+      1579,
+      1348
+     ],
+     "konflikte_nach": [
+      1783,
+      2369,
+      1279,
+      1867,
+      2745
+     ],
+     "propagationen_vor": [
+      124179,
+      121750,
+      136096,
+      124238,
+      107054
+     ],
+     "propagationen_nach": [
+      105311,
+      142808,
+      79183,
+      108375,
+      158722
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1708,
+     "variablen": [
+      371,
+      284
+     ],
+     "klauseln": [
+      1932,
+      1500
+     ],
+     "resolventen": 7332,
+     "vergleiche": 77086,
+     "runden": 1,
+     "eliminiert": 84,
+     "abgelehnt": 448,
+     "einheiten": 3,
+     "subsumiert": 0,
+     "verstaerkt": 0,
+     "antwort_vor": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "antwort_nach": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "konflikte_vor": [
+      1340,
+      1067,
+      1069,
+      1022,
+      1258
+     ],
+     "konflikte_nach": [
+      951,
+      1934,
+      1030,
+      1187,
+      1574
+     ],
+     "propagationen_vor": [
+      103073,
+      84443,
+      82716,
+      79533,
+      101665
+     ],
+     "propagationen_nach": [
+      59586,
+      111355,
+      62681,
+      70170,
+      94407
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1709,
+     "variablen": [
+      371,
+      284
+     ],
+     "klauseln": [
+      1932,
+      1500
+     ],
+     "resolventen": 7332,
+     "vergleiche": 76575,
+     "runden": 1,
+     "eliminiert": 84,
+     "abgelehnt": 448,
+     "einheiten": 3,
+     "subsumiert": 0,
+     "verstaerkt": 0,
+     "antwort_vor": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "antwort_nach": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "konflikte_vor": [
+      2115,
+      1865,
+      1882,
+      1541,
+      1661
+     ],
+     "konflikte_nach": [
+      2103,
+      2238,
+      1794,
+      1893,
+      1756
+     ],
+     "propagationen_vor": [
+      166525,
+      149549,
+      151528,
+      129524,
+      134598
+     ],
+     "propagationen_nach": [
+      127575,
+      141150,
+      113074,
+      119802,
+      109497
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    }
+   ],
+   "kurz": "VC Totalizer (Eingänge fest)"
+  },
+  {
+   "id": "vc_sinz_frei",
+   "familie": "vc_sinz",
+   "n": 60,
+   "eingefroren": false,
+   "beschriftung": "Vertex Cover n = 60, k = 24, Sinz-Zähler, nichts eingefroren",
+   "formeln": [
+    {
+     "seed": 1700,
+     "variablen": [
+      1476,
+      408
+     ],
+     "klauseln": [
+      2957,
+      1569
+     ],
+     "resolventen": 29114,
+     "vergleiche": 101136,
+     "runden": 4,
+     "eliminiert": 1045,
+     "abgelehnt": 2055,
+     "einheiten": 23,
+     "subsumiert": 10,
+     "verstaerkt": 30,
+     "antwort_vor": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "antwort_nach": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "konflikte_vor": [
+      3298,
+      3610,
+      3944,
+      3931,
+      3619
+     ],
+     "konflikte_nach": [
+      4585,
+      4118,
+      4113,
+      3764,
+      4406
+     ],
+     "propagationen_vor": [
+      614195,
+      676181,
+      736451,
+      738874,
+      674140
+     ],
+     "propagationen_nach": [
+      323748,
+      302687,
+      299644,
+      266240,
+      324906
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1701,
+     "variablen": [
+      1476,
+      412
+     ],
+     "klauseln": [
+      2957,
+      1594
+     ],
+     "resolventen": 30924,
+     "vergleiche": 137424,
+     "runden": 5,
+     "eliminiert": 1041,
+     "abgelehnt": 2073,
+     "einheiten": 23,
+     "subsumiert": 12,
+     "verstaerkt": 39,
+     "antwort_vor": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "antwort_nach": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "konflikte_vor": [
+      2711,
+      2229,
+      1579,
+      2049,
+      1887
+     ],
+     "konflikte_nach": [
+      2412,
+      2057,
+      2889,
+      2516,
+      2131
+     ],
+     "propagationen_vor": [
+      522520,
+      431719,
+      291524,
+      369809,
+      337830
+     ],
+     "propagationen_nach": [
+      167498,
+      149454,
+      205988,
+      171270,
+      152560
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1702,
+     "variablen": [
+      1476,
+      456
+     ],
+     "klauseln": [
+      2957,
+      1745
+     ],
+     "resolventen": 31489,
+     "vergleiche": 122096,
+     "runden": 4,
+     "eliminiert": 997,
+     "abgelehnt": 2287,
+     "einheiten": 23,
+     "subsumiert": 3,
+     "verstaerkt": 8,
+     "antwort_vor": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "antwort_nach": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "konflikte_vor": [
+      1862,
+      1547,
+      1963,
+      2037,
+      1646
+     ],
+     "konflikte_nach": [
+      2022,
+      1223,
+      2003,
+      2102,
+      2087
+     ],
+     "propagationen_vor": [
+      362606,
+      278700,
+      383301,
+      404242,
+      311855
+     ],
+     "propagationen_nach": [
+      153265,
+      97837,
+      156848,
+      156205,
+      149644
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1703,
+     "variablen": [
+      1476,
+      415
+     ],
+     "klauseln": [
+      2957,
+      1588
+     ],
+     "resolventen": 25151,
+     "vergleiche": 80531,
+     "runden": 3,
+     "eliminiert": 1038,
+     "abgelehnt": 1671,
+     "einheiten": 23,
+     "subsumiert": 9,
+     "verstaerkt": 5,
+     "antwort_vor": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "antwort_nach": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "konflikte_vor": [
+      1476,
+      1194,
+      2030,
+      1340,
+      2088
+     ],
+     "konflikte_nach": [
+      2030,
+      2751,
+      1420,
+      1314,
+      1374
+     ],
+     "propagationen_vor": [
+      278435,
+      247340,
+      393247,
+      266262,
+      396703
+     ],
+     "propagationen_nach": [
+      150602,
+      197107,
+      99805,
+      106171,
+      100670
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1704,
+     "variablen": [
+      1476,
+      433
+     ],
+     "klauseln": [
+      2957,
+      1664
+     ],
+     "resolventen": 25446,
+     "vergleiche": 94351,
+     "runden": 3,
+     "eliminiert": 1020,
+     "abgelehnt": 1736,
+     "einheiten": 23,
+     "subsumiert": 0,
+     "verstaerkt": 1,
+     "antwort_vor": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "antwort_nach": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "konflikte_vor": [
+      1511,
+      1106,
+      1495,
+      1556,
+      1629
+     ],
+     "konflikte_nach": [
+      2149,
+      1936,
+      1600,
+      1497,
+      989
+     ],
+     "propagationen_vor": [
+      275267,
+      208464,
+      291877,
+      292051,
+      306487
+     ],
+     "propagationen_nach": [
+      154038,
+      128147,
+      114025,
+      103382,
+      69726
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1705,
+     "variablen": [
+      1476,
+      400
+     ],
+     "klauseln": [
+      2957,
+      1544
+     ],
+     "resolventen": 24442,
+     "vergleiche": 97439,
+     "runden": 3,
+     "eliminiert": 1053,
+     "abgelehnt": 1622,
+     "einheiten": 23,
+     "subsumiert": 5,
+     "verstaerkt": 55,
+     "antwort_vor": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "antwort_nach": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "konflikte_vor": [
+      1216,
+      1455,
+      1369,
+      1035,
+      1144
+     ],
+     "konflikte_nach": [
+      1279,
+      1543,
+      1162,
+      1579,
+      1272
+     ],
+     "propagationen_vor": [
+      228747,
+      273848,
+      251179,
+      190137,
+      213521
+     ],
+     "propagationen_nach": [
+      90765,
+      94298,
+      82201,
+      109301,
+      92657
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1706,
+     "variablen": [
+      1476,
+      420
+     ],
+     "klauseln": [
+      2957,
+      1619
+     ],
+     "resolventen": 24217,
+     "vergleiche": 102173,
+     "runden": 3,
+     "eliminiert": 1033,
+     "abgelehnt": 1693,
+     "einheiten": 23,
+     "subsumiert": 2,
+     "verstaerkt": 45,
+     "antwort_vor": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "antwort_nach": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "konflikte_vor": [
+      1061,
+      788,
+      909,
+      1058,
+      1120
+     ],
+     "konflikte_nach": [
+      1873,
+      863,
+      1084,
+      1311,
+      1293
+     ],
+     "propagationen_vor": [
+      218206,
+      161895,
+      184439,
+      199244,
+      239407
+     ],
+     "propagationen_nach": [
+      141324,
+      70054,
+      87326,
+      111962,
+      98913
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1707,
+     "variablen": [
+      1476,
+      418
+     ],
+     "klauseln": [
+      2957,
+      1603
+     ],
+     "resolventen": 30144,
+     "vergleiche": 122690,
+     "runden": 5,
+     "eliminiert": 1035,
+     "abgelehnt": 2098,
+     "einheiten": 23,
+     "subsumiert": 6,
+     "verstaerkt": 18,
+     "antwort_vor": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "antwort_nach": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "konflikte_vor": [
+      1645,
+      1998,
+      2060,
+      1589,
+      1614
+     ],
+     "konflikte_nach": [
+      1621,
+      2531,
+      1924,
+      2058,
+      2105
+     ],
+     "propagationen_vor": [
+      298169,
+      385774,
+      390859,
+      323361,
+      309449
+     ],
+     "propagationen_nach": [
+      115896,
+      185287,
+      138180,
+      156812,
+      154273
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1708,
+     "variablen": [
+      1476,
+      451
+     ],
+     "klauseln": [
+      2957,
+      1738
+     ],
+     "resolventen": 25852,
+     "vergleiche": 103447,
+     "runden": 3,
+     "eliminiert": 1002,
+     "abgelehnt": 1813,
+     "einheiten": 23,
+     "subsumiert": 1,
+     "verstaerkt": 34,
+     "antwort_vor": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "antwort_nach": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "konflikte_vor": [
+      1247,
+      1505,
+      1610,
+      1293,
+      2014
+     ],
+     "konflikte_nach": [
+      1770,
+      1490,
+      1576,
+      1836,
+      1542
+     ],
+     "propagationen_vor": [
+      227764,
+      285003,
+      304756,
+      275857,
+      352972
+     ],
+     "propagationen_nach": [
+      124516,
+      109062,
+      109338,
+      126567,
+      111127
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1709,
+     "variablen": [
+      1476,
+      439
+     ],
+     "klauseln": [
+      2957,
+      1680
+     ],
+     "resolventen": 25059,
+     "vergleiche": 93959,
+     "runden": 3,
+     "eliminiert": 1014,
+     "abgelehnt": 1756,
+     "einheiten": 23,
+     "subsumiert": 1,
+     "verstaerkt": 27,
+     "antwort_vor": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "antwort_nach": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "konflikte_vor": [
+      2401,
+      2297,
+      2070,
+      3032,
+      2840
+     ],
+     "konflikte_nach": [
+      2959,
+      2343,
+      2025,
+      2397,
+      2811
+     ],
+     "propagationen_vor": [
+      491969,
+      482434,
+      426226,
+      649129,
+      563174
+     ],
+     "propagationen_nach": [
+      231571,
+      194539,
+      149536,
+      179267,
+      222567
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    }
+   ],
+   "kurz": "VC Sinz"
+  },
+  {
+   "id": "vc_sinz_eingefroren",
+   "familie": "vc_sinz",
+   "n": 60,
+   "eingefroren": true,
+   "beschriftung": "Vertex Cover n = 60, k = 24, Sinz-Zähler, Eingänge eingefroren",
+   "formeln": [
+    {
+     "seed": 1700,
+     "variablen": [
+      1476,
+      470
+     ],
+     "klauseln": [
+      2957,
+      1784
+     ],
+     "resolventen": 9018,
+     "vergleiche": 32829,
+     "runden": 1,
+     "eliminiert": 983,
+     "abgelehnt": 820,
+     "einheiten": 23,
+     "subsumiert": 0,
+     "verstaerkt": 0,
+     "antwort_vor": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "antwort_nach": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "konflikte_vor": [
+      3298,
+      3610,
+      3944,
+      3931,
+      3619
+     ],
+     "konflikte_nach": [
+      3769,
+      3393,
+      3738,
+      4451,
+      2777
+     ],
+     "propagationen_vor": [
+      614195,
+      676181,
+      736451,
+      738874,
+      674140
+     ],
+     "propagationen_nach": [
+      293955,
+      262595,
+      305667,
+      376560,
+      229001
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1701,
+     "variablen": [
+      1476,
+      470
+     ],
+     "klauseln": [
+      2957,
+      1784
+     ],
+     "resolventen": 9018,
+     "vergleiche": 33032,
+     "runden": 1,
+     "eliminiert": 983,
+     "abgelehnt": 820,
+     "einheiten": 23,
+     "subsumiert": 0,
+     "verstaerkt": 0,
+     "antwort_vor": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "antwort_nach": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "konflikte_vor": [
+      2711,
+      2229,
+      1579,
+      2049,
+      1887
+     ],
+     "konflikte_nach": [
+      2166,
+      2594,
+      2562,
+      2364,
+      2173
+     ],
+     "propagationen_vor": [
+      522520,
+      431719,
+      291524,
+      369809,
+      337830
+     ],
+     "propagationen_nach": [
+      170289,
+      195657,
+      201104,
+      169740,
+      180957
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1702,
+     "variablen": [
+      1476,
+      470
+     ],
+     "klauseln": [
+      2957,
+      1784
+     ],
+     "resolventen": 9018,
+     "vergleiche": 33175,
+     "runden": 1,
+     "eliminiert": 983,
+     "abgelehnt": 820,
+     "einheiten": 23,
+     "subsumiert": 0,
+     "verstaerkt": 0,
+     "antwort_vor": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "antwort_nach": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "konflikte_vor": [
+      1862,
+      1547,
+      1963,
+      2037,
+      1646
+     ],
+     "konflikte_nach": [
+      1673,
+      1328,
+      1609,
+      1795,
+      1335
+     ],
+     "propagationen_vor": [
+      362606,
+      278700,
+      383301,
+      404242,
+      311855
+     ],
+     "propagationen_nach": [
+      135574,
+      99909,
+      140600,
+      140814,
+      105121
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1703,
+     "variablen": [
+      1476,
+      470
+     ],
+     "klauseln": [
+      2957,
+      1784
+     ],
+     "resolventen": 9018,
+     "vergleiche": 32913,
+     "runden": 1,
+     "eliminiert": 983,
+     "abgelehnt": 820,
+     "einheiten": 23,
+     "subsumiert": 0,
+     "verstaerkt": 0,
+     "antwort_vor": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "antwort_nach": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "konflikte_vor": [
+      1476,
+      1194,
+      2030,
+      1340,
+      2088
+     ],
+     "konflikte_nach": [
+      1155,
+      1678,
+      1861,
+      1489,
+      1178
+     ],
+     "propagationen_vor": [
+      278435,
+      247340,
+      393247,
+      266262,
+      396703
+     ],
+     "propagationen_nach": [
+      92013,
+      135816,
+      146765,
+      115632,
+      89300
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1704,
+     "variablen": [
+      1476,
+      470
+     ],
+     "klauseln": [
+      2957,
+      1784
+     ],
+     "resolventen": 9018,
+     "vergleiche": 33125,
+     "runden": 1,
+     "eliminiert": 983,
+     "abgelehnt": 820,
+     "einheiten": 23,
+     "subsumiert": 0,
+     "verstaerkt": 0,
+     "antwort_vor": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "antwort_nach": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "konflikte_vor": [
+      1511,
+      1106,
+      1495,
+      1556,
+      1629
+     ],
+     "konflikte_nach": [
+      1862,
+      1608,
+      2054,
+      1167,
+      1659
+     ],
+     "propagationen_vor": [
+      275267,
+      208464,
+      291877,
+      292051,
+      306487
+     ],
+     "propagationen_nach": [
+      138040,
+      118742,
+      155784,
+      86190,
+      122758
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1705,
+     "variablen": [
+      1476,
+      470
+     ],
+     "klauseln": [
+      2957,
+      1784
+     ],
+     "resolventen": 9018,
+     "vergleiche": 33153,
+     "runden": 1,
+     "eliminiert": 983,
+     "abgelehnt": 820,
+     "einheiten": 23,
+     "subsumiert": 0,
+     "verstaerkt": 0,
+     "antwort_vor": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "antwort_nach": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "konflikte_vor": [
+      1216,
+      1455,
+      1369,
+      1035,
+      1144
+     ],
+     "konflikte_nach": [
+      1023,
+      1161,
+      1187,
+      1148,
+      1512
+     ],
+     "propagationen_vor": [
+      228747,
+      273848,
+      251179,
+      190137,
+      213521
+     ],
+     "propagationen_nach": [
+      81461,
+      91077,
+      95525,
+      83530,
+      104401
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1706,
+     "variablen": [
+      1476,
+      470
+     ],
+     "klauseln": [
+      2957,
+      1784
+     ],
+     "resolventen": 9018,
+     "vergleiche": 33191,
+     "runden": 1,
+     "eliminiert": 983,
+     "abgelehnt": 820,
+     "einheiten": 23,
+     "subsumiert": 0,
+     "verstaerkt": 0,
+     "antwort_vor": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "antwort_nach": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "konflikte_vor": [
+      1061,
+      788,
+      909,
+      1058,
+      1120
+     ],
+     "konflikte_nach": [
+      1279,
+      1338,
+      1021,
+      1525,
+      1209
+     ],
+     "propagationen_vor": [
+      218206,
+      161895,
+      184439,
+      199244,
+      239407
+     ],
+     "propagationen_nach": [
+      101533,
+      115766,
+      83460,
+      118714,
+      99145
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1707,
+     "variablen": [
+      1476,
+      470
+     ],
+     "klauseln": [
+      2957,
+      1784
+     ],
+     "resolventen": 9018,
+     "vergleiche": 33169,
+     "runden": 1,
+     "eliminiert": 983,
+     "abgelehnt": 820,
+     "einheiten": 23,
+     "subsumiert": 0,
+     "verstaerkt": 0,
+     "antwort_vor": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "antwort_nach": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "konflikte_vor": [
+      1645,
+      1998,
+      2060,
+      1589,
+      1614
+     ],
+     "konflikte_nach": [
+      1843,
+      2666,
+      2035,
+      1646,
+      2136
+     ],
+     "propagationen_vor": [
+      298169,
+      385774,
+      390859,
+      323361,
+      309449
+     ],
+     "propagationen_nach": [
+      151542,
+      194458,
+      161325,
+      123683,
+      163098
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1708,
+     "variablen": [
+      1476,
+      470
+     ],
+     "klauseln": [
+      2957,
+      1784
+     ],
+     "resolventen": 9018,
+     "vergleiche": 33138,
+     "runden": 1,
+     "eliminiert": 983,
+     "abgelehnt": 820,
+     "einheiten": 23,
+     "subsumiert": 0,
+     "verstaerkt": 0,
+     "antwort_vor": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "antwort_nach": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "konflikte_vor": [
+      1247,
+      1505,
+      1610,
+      1293,
+      2014
+     ],
+     "konflikte_nach": [
+      1596,
+      1903,
+      1826,
+      1758,
+      1226
+     ],
+     "propagationen_vor": [
+      227764,
+      285003,
+      304756,
+      275857,
+      352972
+     ],
+     "propagationen_nach": [
+      112178,
+      145363,
+      151588,
+      135227,
+      95557
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1709,
+     "variablen": [
+      1476,
+      470
+     ],
+     "klauseln": [
+      2957,
+      1784
+     ],
+     "resolventen": 9018,
+     "vergleiche": 32943,
+     "runden": 1,
+     "eliminiert": 983,
+     "abgelehnt": 820,
+     "einheiten": 23,
+     "subsumiert": 0,
+     "verstaerkt": 0,
+     "antwort_vor": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "antwort_nach": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "konflikte_vor": [
+      2401,
+      2297,
+      2070,
+      3032,
+      2840
+     ],
+     "konflikte_nach": [
+      2329,
+      2454,
+      2375,
+      2809,
+      2415
+     ],
+     "propagationen_vor": [
+      491969,
+      482434,
+      426226,
+      649129,
+      563174
+     ],
+     "propagationen_nach": [
+      187896,
+      211013,
+      210049,
+      231064,
+      205759
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    }
+   ],
+   "kurz": "VC Sinz (Eingänge fest)"
+  },
+  {
+   "id": "faerbung",
+   "familie": "faerbung",
+   "n": 120,
+   "eingefroren": false,
+   "beschriftung": "3-Färbung n = 120, Grad 4,5",
+   "formeln": [
+    {
+     "seed": 1700,
+     "variablen": [
+      360,
+      186
+     ],
+     "klauseln": [
+      930,
+      740
+     ],
+     "resolventen": 12305,
+     "vergleiche": 33791,
+     "runden": 3,
+     "eliminiert": 172,
+     "abgelehnt": 745,
+     "einheiten": 0,
+     "subsumiert": 0,
+     "verstaerkt": 2,
+     "antwort_vor": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "antwort_nach": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "konflikte_vor": [
+      17,
+      13,
+      8,
+      16,
+      33
+     ],
+     "konflikte_nach": [
+      22,
+      37,
+      16,
+      15,
+      39
+     ],
+     "propagationen_vor": [
+      1951,
+      1538,
+      754,
+      1860,
+      3013
+     ],
+     "propagationen_nach": [
+      1056,
+      1914,
+      860,
+      485,
+      2155
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1701,
+     "variablen": [
+      360,
+      179
+     ],
+     "klauseln": [
+      930,
+      722
+     ],
+     "resolventen": 9253,
+     "vergleiche": 23234,
+     "runden": 2,
+     "eliminiert": 181,
+     "abgelehnt": 540,
+     "einheiten": 0,
+     "subsumiert": 0,
+     "verstaerkt": 6,
+     "antwort_vor": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "antwort_nach": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "konflikte_vor": [
+      115,
+      89,
+      59,
+      85,
+      35
+     ],
+     "konflikte_nach": [
+      31,
+      54,
+      48,
+      100,
+      59
+     ],
+     "propagationen_vor": [
+      9441,
+      7888,
+      5735,
+      7798,
+      3302
+     ],
+     "propagationen_nach": [
+      1437,
+      2472,
+      2363,
+      4947,
+      2950
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1702,
+     "variablen": [
+      360,
+      169
+     ],
+     "klauseln": [
+      930,
+      706
+     ],
+     "resolventen": 12006,
+     "vergleiche": 33579,
+     "runden": 3,
+     "eliminiert": 191,
+     "abgelehnt": 680,
+     "einheiten": 0,
+     "subsumiert": 1,
+     "verstaerkt": 5,
+     "antwort_vor": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "antwort_nach": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "konflikte_vor": [
+      334,
+      380,
+      345,
+      425,
+      361
+     ],
+     "konflikte_nach": [
+      287,
+      269,
+      287,
+      302,
+      289
+     ],
+     "propagationen_vor": [
+      30932,
+      35261,
+      33395,
+      40739,
+      33398
+     ],
+     "propagationen_nach": [
+      14585,
+      13946,
+      15533,
+      14627,
+      14849
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1703,
+     "variablen": [
+      360,
+      168
+     ],
+     "klauseln": [
+      930,
+      709
+     ],
+     "resolventen": 12183,
+     "vergleiche": 34488,
+     "runden": 3,
+     "eliminiert": 190,
+     "abgelehnt": 678,
+     "einheiten": 0,
+     "subsumiert": 3,
+     "verstaerkt": 3,
+     "antwort_vor": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "antwort_nach": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "konflikte_vor": [
+      78,
+      86,
+      109,
+      109,
+      88
+     ],
+     "konflikte_nach": [
+      77,
+      78,
+      77,
+      70,
+      84
+     ],
+     "propagationen_vor": [
+      6239,
+      7300,
+      8752,
+      9549,
+      8113
+     ],
+     "propagationen_nach": [
+      3535,
+      3060,
+      3563,
+      2968,
+      4130
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1704,
+     "variablen": [
+      360,
+      184
+     ],
+     "klauseln": [
+      930,
+      731
+     ],
+     "resolventen": 12186,
+     "vergleiche": 33257,
+     "runden": 3,
+     "eliminiert": 176,
+     "abgelehnt": 742,
+     "einheiten": 0,
+     "subsumiert": 2,
+     "verstaerkt": 5,
+     "antwort_vor": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "antwort_nach": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "konflikte_vor": [
+      9,
+      3,
+      32,
+      19,
+      37
+     ],
+     "konflikte_nach": [
+      17,
+      13,
+      37,
+      9,
+      19
+     ],
+     "propagationen_vor": [
+      922,
+      552,
+      3343,
+      2076,
+      4194
+     ],
+     "propagationen_nach": [
+      854,
+      796,
+      1825,
+      705,
+      1002
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1705,
+     "variablen": [
+      360,
+      153
+     ],
+     "klauseln": [
+      930,
+      664
+     ],
+     "resolventen": 14672,
+     "vergleiche": 44042,
+     "runden": 4,
+     "eliminiert": 207,
+     "abgelehnt": 776,
+     "einheiten": 0,
+     "subsumiert": 5,
+     "verstaerkt": 5,
+     "antwort_vor": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "antwort_nach": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "konflikte_vor": [
+      97,
+      96,
+      94,
+      84,
+      91
+     ],
+     "konflikte_nach": [
+      105,
+      77,
+      77,
+      90,
+      102
+     ],
+     "propagationen_vor": [
+      9506,
+      8877,
+      7519,
+      7923,
+      7847
+     ],
+     "propagationen_nach": [
+      4596,
+      3495,
+      4169,
+      3935,
+      5114
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1706,
+     "variablen": [
+      360,
+      173
+     ],
+     "klauseln": [
+      930,
+      717
+     ],
+     "resolventen": 11718,
+     "vergleiche": 33171,
+     "runden": 3,
+     "eliminiert": 185,
+     "abgelehnt": 700,
+     "einheiten": 0,
+     "subsumiert": 0,
+     "verstaerkt": 9,
+     "antwort_vor": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "antwort_nach": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "konflikte_vor": [
+      205,
+      285,
+      275,
+      307,
+      273
+     ],
+     "konflikte_nach": [
+      235,
+      209,
+      183,
+      236,
+      217
+     ],
+     "propagationen_vor": [
+      20672,
+      27508,
+      27767,
+      28997,
+      25276
+     ],
+     "propagationen_nach": [
+      14000,
+      11047,
+      9661,
+      12263,
+      11073
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1707,
+     "variablen": [
+      360,
+      171
+     ],
+     "klauseln": [
+      930,
+      720
+     ],
+     "resolventen": 12521,
+     "vergleiche": 35931,
+     "runden": 3,
+     "eliminiert": 187,
+     "abgelehnt": 693,
+     "einheiten": 0,
+     "subsumiert": 2,
+     "verstaerkt": 5,
+     "antwort_vor": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "antwort_nach": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "konflikte_vor": [
+      49,
+      105,
+      50,
+      86,
+      81
+     ],
+     "konflikte_nach": [
+      53,
+      73,
+      55,
+      71,
+      44
+     ],
+     "propagationen_vor": [
+      4022,
+      8460,
+      3793,
+      7264,
+      6813
+     ],
+     "propagationen_nach": [
+      2296,
+      3149,
+      2263,
+      3010,
+      1924
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1708,
+     "variablen": [
+      360,
+      189
+     ],
+     "klauseln": [
+      930,
+      753
+     ],
+     "resolventen": 12455,
+     "vergleiche": 34534,
+     "runden": 3,
+     "eliminiert": 169,
+     "abgelehnt": 759,
+     "einheiten": 0,
+     "subsumiert": 2,
+     "verstaerkt": 8,
+     "antwort_vor": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "antwort_nach": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "konflikte_vor": [
+      24,
+      36,
+      50,
+      17,
+      31
+     ],
+     "konflikte_nach": [
+      59,
+      32,
+      57,
+      41,
+      22
+     ],
+     "propagationen_vor": [
+      2645,
+      3595,
+      4729,
+      2062,
+      3175
+     ],
+     "propagationen_nach": [
+      2380,
+      1866,
+      3111,
+      2319,
+      1213
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1709,
+     "variablen": [
+      360,
+      176
+     ],
+     "klauseln": [
+      930,
+      720
+     ],
+     "resolventen": 12071,
+     "vergleiche": 33524,
+     "runden": 3,
+     "eliminiert": 182,
+     "abgelehnt": 711,
+     "einheiten": 0,
+     "subsumiert": 0,
+     "verstaerkt": 8,
+     "antwort_vor": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "antwort_nach": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "konflikte_vor": [
+      97,
+      173,
+      9,
+      71,
+      30
+     ],
+     "konflikte_nach": [
+      51,
+      64,
+      63,
+      36,
+      81
+     ],
+     "propagationen_vor": [
+      10526,
+      16594,
+      1367,
+      6703,
+      2761
+     ],
+     "propagationen_nach": [
+      2713,
+      3392,
+      3619,
+      1945,
+      3803
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    }
+   ],
+   "kurz": "Färbung"
+  },
+  {
+   "id": "zufall",
+   "familie": "zufall",
+   "n": 150,
+   "eingefroren": false,
+   "beschriftung": "Zufalls-3-SAT n = 150, m = 639",
+   "formeln": [
+    {
+     "seed": 1700,
+     "variablen": [
+      150,
+      146
+     ],
+     "klauseln": [
+      639,
+      633
+     ],
+     "resolventen": 4222,
+     "vergleiche": 30024,
+     "runden": 1,
+     "eliminiert": 4,
+     "abgelehnt": 292,
+     "einheiten": 0,
+     "subsumiert": 0,
+     "verstaerkt": 0,
+     "antwort_vor": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "antwort_nach": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "konflikte_vor": [
+      2153,
+      2418,
+      2247,
+      2157,
+      1866
+     ],
+     "konflikte_nach": [
+      1897,
+      2108,
+      2301,
+      2227,
+      2553
+     ],
+     "propagationen_vor": [
+      64987,
+      71069,
+      64457,
+      61749,
+      54977
+     ],
+     "propagationen_nach": [
+      54882,
+      59879,
+      64471,
+      63070,
+      75012
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1701,
+     "variablen": [
+      150,
+      148
+     ],
+     "klauseln": [
+      639,
+      637
+     ],
+     "resolventen": 4211,
+     "vergleiche": 29749,
+     "runden": 1,
+     "eliminiert": 2,
+     "abgelehnt": 296,
+     "einheiten": 0,
+     "subsumiert": 0,
+     "verstaerkt": 0,
+     "antwort_vor": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "antwort_nach": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "konflikte_vor": [
+      41,
+      940,
+      262,
+      44,
+      545
+     ],
+     "konflikte_nach": [
+      1812,
+      734,
+      60,
+      2184,
+      40
+     ],
+     "propagationen_vor": [
+      1331,
+      29926,
+      8782,
+      1089,
+      17619
+     ],
+     "propagationen_nach": [
+      54736,
+      22923,
+      1839,
+      68292,
+      1325
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1702,
+     "variablen": [
+      150,
+      150
+     ],
+     "klauseln": [
+      639,
+      639
+     ],
+     "resolventen": 2102,
+     "vergleiche": 15069,
+     "runden": 0,
+     "eliminiert": 0,
+     "abgelehnt": 150,
+     "einheiten": 0,
+     "subsumiert": 0,
+     "verstaerkt": 0,
+     "antwort_vor": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "antwort_nach": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "konflikte_vor": [
+      2752,
+      2870,
+      2269,
+      2273,
+      2576
+     ],
+     "konflikte_nach": [
+      2350,
+      2855,
+      2640,
+      2690,
+      3239
+     ],
+     "propagationen_vor": [
+      77234,
+      83550,
+      67162,
+      66718,
+      75824
+     ],
+     "propagationen_nach": [
+      68605,
+      83494,
+      78220,
+      79569,
+      93007
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1703,
+     "variablen": [
+      150,
+      142
+     ],
+     "klauseln": [
+      639,
+      621
+     ],
+     "resolventen": 4203,
+     "vergleiche": 28999,
+     "runden": 1,
+     "eliminiert": 8,
+     "abgelehnt": 284,
+     "einheiten": 0,
+     "subsumiert": 0,
+     "verstaerkt": 0,
+     "antwort_vor": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "antwort_nach": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "konflikte_vor": [
+      3557,
+      3631,
+      4369,
+      3866,
+      4266
+     ],
+     "konflikte_nach": [
+      3729,
+      3744,
+      4208,
+      3862,
+      3651
+     ],
+     "propagationen_vor": [
+      111946,
+      113340,
+      136977,
+      120685,
+      132594
+     ],
+     "propagationen_nach": [
+      115102,
+      111519,
+      123175,
+      117707,
+      110675
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1704,
+     "variablen": [
+      150,
+      145
+     ],
+     "klauseln": [
+      639,
+      633
+     ],
+     "resolventen": 6367,
+     "vergleiche": 44967,
+     "runden": 2,
+     "eliminiert": 5,
+     "abgelehnt": 435,
+     "einheiten": 0,
+     "subsumiert": 1,
+     "verstaerkt": 2,
+     "antwort_vor": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "antwort_nach": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "konflikte_vor": [
+      3966,
+      3451,
+      3396,
+      3767,
+      3516
+     ],
+     "konflikte_nach": [
+      3068,
+      3335,
+      3716,
+      2888,
+      3512
+     ],
+     "propagationen_vor": [
+      118869,
+      105970,
+      107092,
+      113921,
+      106256
+     ],
+     "propagationen_nach": [
+      91006,
+      101481,
+      109390,
+      88785,
+      104893
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1705,
+     "variablen": [
+      150,
+      148
+     ],
+     "klauseln": [
+      639,
+      636
+     ],
+     "resolventen": 4205,
+     "vergleiche": 29889,
+     "runden": 1,
+     "eliminiert": 2,
+     "abgelehnt": 296,
+     "einheiten": 0,
+     "subsumiert": 0,
+     "verstaerkt": 0,
+     "antwort_vor": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "antwort_nach": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "konflikte_vor": [
+      2798,
+      2386,
+      2214,
+      2285,
+      1872
+     ],
+     "konflikte_nach": [
+      2185,
+      2287,
+      2221,
+      2257,
+      2200
+     ],
+     "propagationen_vor": [
+      83114,
+      73570,
+      67451,
+      68508,
+      57146
+     ],
+     "propagationen_nach": [
+      66920,
+      70399,
+      65869,
+      68753,
+      67479
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1706,
+     "variablen": [
+      150,
+      146
+     ],
+     "klauseln": [
+      639,
+      633
+     ],
+     "resolventen": 6313,
+     "vergleiche": 44813,
+     "runden": 2,
+     "eliminiert": 4,
+     "abgelehnt": 438,
+     "einheiten": 0,
+     "subsumiert": 1,
+     "verstaerkt": 1,
+     "antwort_vor": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "antwort_nach": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "konflikte_vor": [
+      3587,
+      2856,
+      3007,
+      2871,
+      3154
+     ],
+     "konflikte_nach": [
+      3504,
+      3142,
+      3490,
+      3250,
+      3368
+     ],
+     "propagationen_vor": [
+      105490,
+      86696,
+      89276,
+      87911,
+      94164
+     ],
+     "propagationen_nach": [
+      103045,
+      91687,
+      103092,
+      96207,
+      101700
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1707,
+     "variablen": [
+      150,
+      149
+     ],
+     "klauseln": [
+      639,
+      638
+     ],
+     "resolventen": 4206,
+     "vergleiche": 29564,
+     "runden": 1,
+     "eliminiert": 1,
+     "abgelehnt": 298,
+     "einheiten": 0,
+     "subsumiert": 0,
+     "verstaerkt": 0,
+     "antwort_vor": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "antwort_nach": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "konflikte_vor": [
+      2235,
+      2840,
+      2385,
+      2957,
+      2773
+     ],
+     "konflikte_nach": [
+      2424,
+      2562,
+      2374,
+      2600,
+      2972
+     ],
+     "propagationen_vor": [
+      71491,
+      88594,
+      75538,
+      92719,
+      89764
+     ],
+     "propagationen_nach": [
+      78217,
+      81196,
+      74533,
+      81437,
+      89949
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1708,
+     "variablen": [
+      150,
+      148
+     ],
+     "klauseln": [
+      639,
+      637
+     ],
+     "resolventen": 4198,
+     "vergleiche": 29358,
+     "runden": 1,
+     "eliminiert": 2,
+     "abgelehnt": 296,
+     "einheiten": 0,
+     "subsumiert": 0,
+     "verstaerkt": 0,
+     "antwort_vor": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "antwort_nach": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "konflikte_vor": [
+      3344,
+      3484,
+      3177,
+      3173,
+      2888
+     ],
+     "konflikte_nach": [
+      3274,
+      2776,
+      3296,
+      3161,
+      2756
+     ],
+     "propagationen_vor": [
+      104524,
+      109242,
+      96520,
+      97888,
+      92207
+     ],
+     "propagationen_nach": [
+      100313,
+      87590,
+      100405,
+      98860,
+      88203
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1709,
+     "variablen": [
+      150,
+      150
+     ],
+     "klauseln": [
+      639,
+      639
+     ],
+     "resolventen": 2094,
+     "vergleiche": 15023,
+     "runden": 0,
+     "eliminiert": 0,
+     "abgelehnt": 150,
+     "einheiten": 0,
+     "subsumiert": 0,
+     "verstaerkt": 0,
+     "antwort_vor": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "antwort_nach": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "konflikte_vor": [
+      3387,
+      2938,
+      3522,
+      2941,
+      3602
+     ],
+     "konflikte_nach": [
+      2693,
+      3062,
+      3111,
+      2540,
+      2822
+     ],
+     "propagationen_vor": [
+      101767,
+      87969,
+      107615,
+      91461,
+      108485
+     ],
+     "propagationen_nach": [
+      81186,
+      92892,
+      94874,
+      77558,
+      86530
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    }
+   ],
+   "kurz": "Zufalls-3-SAT"
+  },
+  {
+   "id": "latin",
+   "familie": "latin",
+   "n": 12,
+   "eingefroren": false,
+   "beschriftung": "Latin 12, Lücken 0,6",
+   "formeln": [
+    {
+     "seed": 1700,
+     "variablen": [
+      1728,
+      393
+     ],
+     "klauseln": [
+      29002,
+      2581
+     ],
+     "resolventen": 9336,
+     "vergleiche": 38552,
+     "runden": 0,
+     "eliminiert": 0,
+     "abgelehnt": 393,
+     "einheiten": 1335,
+     "subsumiert": 0,
+     "verstaerkt": 0,
+     "antwort_vor": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "antwort_nach": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "konflikte_vor": [
+      7,
+      1,
+      14,
+      10,
+      4
+     ],
+     "konflikte_nach": [
+      6,
+      10,
+      1,
+      10,
+      8
+     ],
+     "propagationen_vor": [
+      2443,
+      1848,
+      3147,
+      2681,
+      2107
+     ],
+     "propagationen_nach": [
+      972,
+      1182,
+      478,
+      1129,
+      1010
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1701,
+     "variablen": [
+      1728,
+      407
+     ],
+     "klauseln": [
+      29002,
+      2815
+     ],
+     "resolventen": 10132,
+     "vergleiche": 44280,
+     "runden": 0,
+     "eliminiert": 0,
+     "abgelehnt": 407,
+     "einheiten": 1321,
+     "subsumiert": 0,
+     "verstaerkt": 0,
+     "antwort_vor": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "antwort_nach": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "konflikte_vor": [
+      8,
+      15,
+      1,
+      7,
+      1
+     ],
+     "konflikte_nach": [
+      4,
+      4,
+      1,
+      1,
+      5
+     ],
+     "propagationen_vor": [
+      2558,
+      2811,
+      1800,
+      2583,
+      1779
+     ],
+     "propagationen_nach": [
+      682,
+      860,
+      439,
+      460,
+      766
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1702,
+     "variablen": [
+      1728,
+      395
+     ],
+     "klauseln": [
+      29002,
+      2648
+     ],
+     "resolventen": 9532,
+     "vergleiche": 40345,
+     "runden": 0,
+     "eliminiert": 0,
+     "abgelehnt": 395,
+     "einheiten": 1333,
+     "subsumiert": 0,
+     "verstaerkt": 0,
+     "antwort_vor": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "antwort_nach": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "konflikte_vor": [
+      18,
+      6,
+      2,
+      0,
+      0
+     ],
+     "konflikte_nach": [
+      1,
+      4,
+      4,
+      8,
+      4
+     ],
+     "propagationen_vor": [
+      3513,
+      2092,
+      1892,
+      1728,
+      1728
+     ],
+     "propagationen_nach": [
+      543,
+      646,
+      939,
+      1404,
+      939
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1703,
+     "variablen": [
+      1728,
+      428
+     ],
+     "klauseln": [
+      29002,
+      3138
+     ],
+     "resolventen": 11318,
+     "vergleiche": 52239,
+     "runden": 0,
+     "eliminiert": 0,
+     "abgelehnt": 428,
+     "einheiten": 1300,
+     "subsumiert": 0,
+     "verstaerkt": 0,
+     "antwort_vor": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "antwort_nach": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "konflikte_vor": [
+      5,
+      3,
+      30,
+      11,
+      1
+     ],
+     "konflikte_nach": [
+      1,
+      6,
+      27,
+      7,
+      0
+     ],
+     "propagationen_vor": [
+      2193,
+      2009,
+      4651,
+      2936,
+      1780
+     ],
+     "propagationen_nach": [
+      454,
+      981,
+      3074,
+      851,
+      428
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1704,
+     "variablen": [
+      1728,
+      426
+     ],
+     "klauseln": [
+      29002,
+      3043
+     ],
+     "resolventen": 11016,
+     "vergleiche": 49176,
+     "runden": 0,
+     "eliminiert": 0,
+     "abgelehnt": 426,
+     "einheiten": 1302,
+     "subsumiert": 0,
+     "verstaerkt": 0,
+     "antwort_vor": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "antwort_nach": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "konflikte_vor": [
+      3,
+      0,
+      6,
+      32,
+      10
+     ],
+     "konflikte_nach": [
+      0,
+      7,
+      5,
+      4,
+      1
+     ],
+     "propagationen_vor": [
+      1929,
+      1728,
+      2166,
+      4849,
+      2552
+     ],
+     "propagationen_nach": [
+      426,
+      1029,
+      797,
+      962,
+      475
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1705,
+     "variablen": [
+      1728,
+      407
+     ],
+     "klauseln": [
+      29002,
+      2794
+     ],
+     "resolventen": 10082,
+     "vergleiche": 43628,
+     "runden": 0,
+     "eliminiert": 0,
+     "abgelehnt": 407,
+     "einheiten": 1321,
+     "subsumiert": 0,
+     "verstaerkt": 0,
+     "antwort_vor": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "antwort_nach": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "konflikte_vor": [
+      0,
+      2,
+      3,
+      6,
+      3
+     ],
+     "konflikte_nach": [
+      0,
+      1,
+      0,
+      2,
+      9
+     ],
+     "propagationen_vor": [
+      1728,
+      1940,
+      1977,
+      2131,
+      1958
+     ],
+     "propagationen_nach": [
+      407,
+      440,
+      407,
+      535,
+      1310
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1706,
+     "variablen": [
+      1728,
+      418
+     ],
+     "klauseln": [
+      29002,
+      3026
+     ],
+     "resolventen": 10844,
+     "vergleiche": 49663,
+     "runden": 0,
+     "eliminiert": 0,
+     "abgelehnt": 418,
+     "einheiten": 1310,
+     "subsumiert": 0,
+     "verstaerkt": 0,
+     "antwort_vor": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "antwort_nach": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "konflikte_vor": [
+      0,
+      4,
+      0,
+      1,
+      10
+     ],
+     "konflikte_nach": [
+      6,
+      12,
+      1,
+      3,
+      2
+     ],
+     "propagationen_vor": [
+      1728,
+      2235,
+      1728,
+      1787,
+      2900
+     ],
+     "propagationen_nach": [
+      1063,
+      1512,
+      547,
+      799,
+      625
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1707,
+     "variablen": [
+      1728,
+      368
+     ],
+     "klauseln": [
+      29002,
+      2362
+     ],
+     "resolventen": 8500,
+     "vergleiche": 34404,
+     "runden": 0,
+     "eliminiert": 0,
+     "abgelehnt": 368,
+     "einheiten": 1360,
+     "subsumiert": 0,
+     "verstaerkt": 0,
+     "antwort_vor": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "antwort_nach": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "konflikte_vor": [
+      9,
+      5,
+      0,
+      4,
+      1
+     ],
+     "konflikte_nach": [
+      0,
+      9,
+      3,
+      9,
+      10
+     ],
+     "propagationen_vor": [
+      2510,
+      2061,
+      1728,
+      2075,
+      1743
+     ],
+     "propagationen_nach": [
+      368,
+      1161,
+      654,
+      1336,
+      1210
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1708,
+     "variablen": [
+      1728,
+      422
+     ],
+     "klauseln": [
+      29002,
+      3050
+     ],
+     "resolventen": 10994,
+     "vergleiche": 49942,
+     "runden": 0,
+     "eliminiert": 0,
+     "abgelehnt": 422,
+     "einheiten": 1306,
+     "subsumiert": 0,
+     "verstaerkt": 0,
+     "antwort_vor": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "antwort_nach": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "konflikte_vor": [
+      5,
+      7,
+      3,
+      0,
+      2
+     ],
+     "konflikte_nach": [
+      0,
+      0,
+      9,
+      4,
+      2
+     ],
+     "propagationen_vor": [
+      2126,
+      2026,
+      1887,
+      1728,
+      1895
+     ],
+     "propagationen_nach": [
+      422,
+      422,
+      1116,
+      808,
+      459
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    },
+    {
+     "seed": 1709,
+     "variablen": [
+      1728,
+      389
+     ],
+     "klauseln": [
+      29002,
+      2741
+     ],
+     "resolventen": 9876,
+     "vergleiche": 43841,
+     "runden": 0,
+     "eliminiert": 0,
+     "abgelehnt": 389,
+     "einheiten": 1339,
+     "subsumiert": 0,
+     "verstaerkt": 0,
+     "antwort_vor": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "antwort_nach": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "konflikte_vor": [
+      2,
+      5,
+      6,
+      0,
+      3
+     ],
+     "konflikte_nach": [
+      1,
+      3,
+      7,
+      6,
+      2
+     ],
+     "propagationen_vor": [
+      1865,
+      2215,
+      2125,
+      1728,
+      1968
+     ],
+     "propagationen_nach": [
+      419,
+      706,
+      1166,
+      864,
+      573
+     ],
+     "antwortfehler": 0,
+     "modellfehler": 0
+    }
+   ],
+   "kurz": "Latin 12"
+  }
+ ],
+ "sinz": [
+  {
+   "n": 3,
+   "k": 1,
+   "variablen": [
+    5,
+    3
+   ],
+   "klauseln": [
+    6,
+    4
+   ],
+   "binomial_klauseln": 4,
+   "gleich_binomial": true,
+   "eliminiert": 2,
+   "resolventen": 4,
+   "runden": 1
+  },
+  {
+   "n": 4,
+   "k": 1,
+   "variablen": [
+    7,
+    4
+   ],
+   "klauseln": [
+    9,
+    7
+   ],
+   "binomial_klauseln": 7,
+   "gleich_binomial": true,
+   "eliminiert": 3,
+   "resolventen": 8,
+   "runden": 1
+  },
+  {
+   "n": 5,
+   "k": 1,
+   "variablen": [
+    9,
+    6
+   ],
+   "klauseln": [
+    12,
+    10
+   ],
+   "binomial_klauseln": 11,
+   "gleich_binomial": false,
+   "eliminiert": 3,
+   "resolventen": 20,
+   "runden": 1
+  },
+  {
+   "n": 6,
+   "k": 1,
+   "variablen": [
+    11,
+    7
+   ],
+   "klauseln": [
+    15,
+    13
+   ],
+   "binomial_klauseln": 16,
+   "gleich_binomial": false,
+   "eliminiert": 4,
+   "resolventen": 26,
+   "runden": 1
+  },
+  {
+   "n": 7,
+   "k": 1,
+   "variablen": [
+    13,
+    9
+   ],
+   "klauseln": [
+    18,
+    16
+   ],
+   "binomial_klauseln": 22,
+   "gleich_binomial": false,
+   "eliminiert": 4,
+   "resolventen": 38,
+   "runden": 1
+  },
+  {
+   "n": 8,
+   "k": 1,
+   "variablen": [
+    15,
+    10
+   ],
+   "klauseln": [
+    21,
+    19
+   ],
+   "binomial_klauseln": 29,
+   "gleich_binomial": false,
+   "eliminiert": 5,
+   "resolventen": 44,
+   "runden": 1
+  },
+  {
+   "n": 3,
+   "k": 2,
+   "variablen": [
+    7,
+    3
+   ],
+   "klauseln": [
+    9,
+    2
+   ],
+   "binomial_klauseln": 2,
+   "gleich_binomial": true,
+   "eliminiert": 3,
+   "resolventen": 2,
+   "runden": 1
+  },
+  {
+   "n": 4,
+   "k": 2,
+   "variablen": [
+    10,
+    4
+   ],
+   "klauseln": [
+    14,
+    5
+   ],
+   "binomial_klauseln": 5,
+   "gleich_binomial": true,
+   "eliminiert": 5,
+   "resolventen": 9,
+   "runden": 1
+  },
+  {
+   "n": 5,
+   "k": 2,
+   "variablen": [
+    13,
+    6
+   ],
+   "klauseln": [
+    19,
+    10
+   ],
+   "binomial_klauseln": 11,
+   "gleich_binomial": false,
+   "eliminiert": 6,
+   "resolventen": 25,
+   "runden": 1
+  },
+  {
+   "n": 6,
+   "k": 2,
+   "variablen": [
+    16,
+    8
+   ],
+   "klauseln": [
+    24,
+    15
+   ],
+   "binomial_klauseln": 21,
+   "gleich_binomial": false,
+   "eliminiert": 7,
+   "resolventen": 45,
+   "runden": 1
+  },
+  {
+   "n": 7,
+   "k": 2,
+   "variablen": [
+    19,
+    10
+   ],
+   "klauseln": [
+    29,
+    20
+   ],
+   "binomial_klauseln": 36,
+   "gleich_binomial": false,
+   "eliminiert": 8,
+   "resolventen": 65,
+   "runden": 1
+  },
+  {
+   "n": 8,
+   "k": 2,
+   "variablen": [
+    22,
+    12
+   ],
+   "klauseln": [
+    34,
+    25
+   ],
+   "binomial_klauseln": 57,
+   "gleich_binomial": false,
+   "eliminiert": 9,
+   "resolventen": 85,
+   "runden": 1
+  },
+  {
+   "n": 4,
+   "k": 3,
+   "variablen": [
+    13,
+    4
+   ],
+   "klauseln": [
+    19,
+    2
+   ],
+   "binomial_klauseln": 2,
+   "gleich_binomial": true,
+   "eliminiert": 7,
+   "resolventen": 3,
+   "runden": 1
+  },
+  {
+   "n": 5,
+   "k": 3,
+   "variablen": [
+    17,
+    5
+   ],
+   "klauseln": [
+    26,
+    6
+   ],
+   "binomial_klauseln": 6,
+   "gleich_binomial": true,
+   "eliminiert": 10,
+   "resolventen": 13,
+   "runden": 1
+  },
+  {
+   "n": 6,
+   "k": 3,
+   "variablen": [
+    21,
+    7
+   ],
+   "klauseln": [
+    33,
+    13
+   ],
+   "binomial_klauseln": 16,
+   "gleich_binomial": false,
+   "eliminiert": 12,
+   "resolventen": 35,
+   "runden": 1
+  },
+  {
+   "n": 7,
+   "k": 3,
+   "variablen": [
+    25,
+    10
+   ],
+   "klauseln": [
+    40,
+    20
+   ],
+   "binomial_klauseln": 36,
+   "gleich_binomial": false,
+   "eliminiert": 13,
+   "resolventen": 69,
+   "runden": 1
+  },
+  {
+   "n": 8,
+   "k": 3,
+   "variablen": [
+    29,
+    12
+   ],
+   "klauseln": [
+    47,
+    27
+   ],
+   "binomial_klauseln": 71,
+   "gleich_binomial": false,
+   "eliminiert": 15,
+   "resolventen": 97,
+   "runden": 1
+  }
+ ]
+}
