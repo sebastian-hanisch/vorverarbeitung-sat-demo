@@ -7,14 +7,13 @@ Aufbau und Regeln stehen im DEMO-PLAYBOOK.md (§2).
 Lauffähig mit: streamlit run app.py
 """
 
-import time
-
 import pandas as pd
 import streamlit as st
 
 import vvs_algorithm as A
 import vvs_constants as C
 import vvs_evaluation as ev
+import vvs_fortschritt as F
 import vvs_scenario as S
 import vvs_texte as T
 from vvs_layout import dunkles_design, kopf_css
@@ -51,11 +50,6 @@ def _analyse(familie, n, seed, eingefroren, runden):
 def _reihe():
     daten = ev.lade_messreihen()
     return daten, [ev.kennzahlen(z) for z in daten["zeilen"]]
-
-
-@st.cache_data(show_spinner=False, max_entries=4)
-def _live(familie, n, eingefroren, runden):
-    return ev.live_reihe(familie, n, eingefroren, runden)
 
 
 @st.cache_data(show_spinner=False, max_entries=8)
@@ -284,9 +278,9 @@ with tab3:
                "Ohne Streubreite: nur eine Zählung, kein Verdikt über einen Unterschied.")
     live_moeglich = familie not in (C.FAM_HAND, C.FAM_SINZ)
     if st.button("▶️ Verkleinerte Messreihe rechnen", key="live_knopf", disabled=not live_moeglich):
-        start = time.perf_counter()
-        with st.spinner("Rechne vier Formeln vorher und nachher (einige Sekunden bis etwa eine Minute) …"):
-            st.session_state["live"] = ((familie, int(n), eingefroren, int(runden)), _live(familie, int(n), eingefroren, int(runden)), time.perf_counter() - start)
+        with F.fortschrittsbalken("Rechne vier Formeln vorher und nachher, fertige Formeln") as melde:
+            formeln_live, sek_live = F.reihe(familie, int(n), eingefroren, int(runden), melde)
+        st.session_state["live"] = ((familie, int(n), eingefroren, int(runden)), formeln_live, sek_live)
     gespeichert = st.session_state.get("live")
     if not live_moeglich:
         st.info("Handbeispiel und Sinz-Zähler sind feste Formeln: die verkleinerte Messreihe braucht eine Zufallsfamilie.")
@@ -298,7 +292,7 @@ with tab3:
                                     "Resolventen berechnet": ev.de(f["resolventen"])} for f in formeln]), hide_index=True, width="stretch")
         kind, text = ev.verdict_live(formeln)
         getattr(st, kind)(text)
-        st.caption(f"Rechenzeit dieses Laufs: {gespeichert[2]:.0f} s (nur zur Orientierung, kein Messwert der Demo).")
+        st.caption(f"Rechenzeit dieses Laufs: {gespeichert[2]:.0f} s (nur zur Orientierung, kein Messwert der Demo; bei schon zwischengespeicherten Formeln die Zeit ihrer ersten Rechnung).")
     else:
         st.info("Noch nicht gerechnet: „Verkleinerte Messreihe rechnen“ startet die Reihe für die Aufgabe der Seitenleiste.")
 

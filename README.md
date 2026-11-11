@@ -29,7 +29,7 @@ Verfahren (Mathematik im 📐-Expander der App):
 - **Messreihe** (`vvs_messreihen.json`, erzeugt mit `tools/messreihe.py`, **vorgerechnet, nicht live**): je Zeile zehn feste Formeln (Zufalls-Seeds 1700 bis 1709), je Formel vorher und nachher fünf Läufe mit fünf Löser-Seeds (zufällige Anfangsaktivität aus SplitMix64), das sind 100 Läufe je Zeile. Wert je Formel: Median über die Löser-Seeds; Wert der Zeile: Median über die Formeln; Variablen und Klauseln: Mittel über die Formeln.
 - **Verdikt der Konflikte (Spannenregel):** Für jeden Löser-Seed wird der Median über die Formeln gebildet; die Spanne ist Minimum bis Maximum dieser fünf Mediane, vorher und nachher. Eine Änderung der Konflikte gilt nur dann als erkennbar, wenn sich die beiden Spannen nicht überlappen. Die Spanne erfasst die Streuung der Suche bei **denselben** zehn Formeln, nicht die zwischen verschiedenen Formeln.
 - **Kosten:** `resolventen` zählt untersuchte Resolventen-Paare (auch tautologische und verworfene; die Zählung bricht bei einer verworfenen Elimination ab), `vergleiche` die Teilmengen-Prüfungen in Subsumption und Verstärkung. Beide sind Zähler, keine Zeit, und nicht in Propagationen umrechenbar.
-- **Verkleinerte Messreihe live** (Reiter „Vorher und nachher“): vier Formeln (Zufalls-Seeds 1700 bis 1703) mit der Größe der Seitenleiste, ein Löser-Seed, Budget 20.000; ohne Spanne, daher nur eine Zählung.
+- **Verkleinerte Messreihe live** (Reiter „Vorher und nachher“): vier Formeln (Zufalls-Seeds 1700 bis 1703) mit der Größe der Seitenleiste, ein Löser-Seed, Budget 20.000; ohne Spanne, daher nur eine Zählung. Ein Fortschrittsbalken zählt die fertigen Formeln; jede Formel wird zwischengespeichert, ein erneuter Klick mit gleicher Einstellung antwortet ohne Rechnung (`vvs_fortschritt.py`, ohne Änderung der Rechnung).
 - **Kern-Kopien:** `vvs_rng.py`, `vvs_instanzen.py`, `vvs_kodierung.py`, `vvs_cdcl.py`, `vvs_vorverarbeitung.py` sind unveränderte Kopien aus `sat-cp-planung/kern` (Kern-Versionen im Kopf jeder Datei; `tests/test_copies.py` vergleicht die Hashes). Die App benutzt statt der Kern-Fassung `vvs_vorverarbeitung.py` die eigene Fassung `vvs_algorithm.py` (öffentliche Einzelschritte, Ereignisprotokoll, Kostenzähler, Einfrieren, Vivification); die Kern-Fassung bleibt als Vergleich in den Tests.
 
 ## Befunde (gemessen, keine Behauptungen)
@@ -95,7 +95,7 @@ Blockierte Klauseln, Äquivalenzerkennung, Probing, Variablenaddition, Cube-and-
 - **Verdikte:** reine Funktionen in `vvs_evaluation.py`, an handgesetzten Zeilen geprüft (`tests/test_verdicts.py`, darunter „Konflikte steigen“ bei einer Sinz-Zeile und „kein Unterschied erkennbar“ bei überlappenden Spannen).
 - **Claims:** `tests/test_claims.py` rechnet jede Zahl dieser README aus `vvs_messreihen.json` nach und prüft Ausschnitte der Messreihe (Vorverarbeitung aller Zeilen für drei Formeln, Löserläufe für je eine Formel) gegen eine Neumessung; Zeiten stehen nirgends.
 - **Presets, Layout, Oberfläche:** Presets vollständig und innerhalb der Grenzen; Schnellstart in der Seitenleiste, fester Kopf, aktives Preset hervorgehoben, jede Änderung eines Reglers hebt die Markierung auf; AppTest-Rauchtest (jeder Knopf, jeder Regler am Minimum und Maximum), verkleinerte Messreihe, Schrittregler, Reiter „Elimination“, Footer.
-- **Anzahl:** 153 Tests (`pytest --collect-only -q tests`).
+- **Anzahl:** 157 Tests (`pytest --collect-only -q tests`).
 
 ## Dateistruktur
 
@@ -112,6 +112,7 @@ Blockierte Klauseln, Äquivalenzerkennung, Probing, Variablenaddition, Cube-and-
 | `vvs_cdcl.py`, `vvs_instanzen.py`, `vvs_kodierung.py`, `vvs_rng.py`, `vvs_vorverarbeitung.py` | unveränderte Kopien aus dem Kern-Paket der Linie (Kern-Version im Dateikopf) |
 | `vvs_constants.py` | Familien, Regler-Grenzen, Messreihen-Festlegungen, Presets |
 | `vvs_evaluation.py` | Messung vorher/nachher, Kennzahlen, Verdikte, Experiment „Sinz-Zähler“, verkleinerte Messreihe |
+| `vvs_fortschritt.py` | Fortschrittsbalken und Zwischenspeicher für die verkleinerte Messreihe (je Formel; keine eigene Rechnung) |
 | `vvs_layout.py` | Fester Kopf (Stylesheet) |
 | `vvs_messreihen.json` | vorgerechnete Messreihe (zehn Formeln je Zeile, fünf Löser-Seeds) und Sinz-Tabelle |
 | `vvs_presets.py` | Permalink (Begrenzen), Presets (Schnellstart in der Seitenleiste, aktives Preset hervorgehoben), Seed-Kette über SplitMix64 |
